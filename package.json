@@ -1,0 +1,34 @@
+{
+  "name": "whatsapp-voice-message-api",
+  "version": "1.0.0",
+  "description": "whatsapp api for speach to text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Wiggels33/whatsapp-voice-message-api.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "audio",
+    "nodejs",
+    "api"
+  ],
+  "author": "nikmeyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Wiggels33/whatsapp-voice-message-api/issues"
+  },
+  "homepage": "https://github.com/Wiggels33/whatsapp-voice-message-api#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "twilio": "^5.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.2"
+  }
+}
